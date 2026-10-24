@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B14"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D1A"/>
+    </linearGradient>
+
+    <linearGradient id="glowViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <linearGradient id="glowCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#8B5CF6" flood-opacity="0.3"/>
+    </filter>
+
+    <!-- CSS Keyframe Animations -->
+    <style>
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-1.5deg); }
+      }
+      @keyframes floatSlow3 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(-1deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes rotateAperture {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes shimmerLine {
+        0% { stroke-dashoffset: 800; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .floating-card-1 { animation: floatSlow1 7s ease-in-out infinite; transform-origin: center; }
+      .floating-card-2 { animation: floatSlow2 8.5s ease-in-out infinite; transform-origin: center; }
+      .floating-card-3 { animation: floatSlow3 6.5s ease-in-out infinite; transform-origin: center; }
+      .pulsing-glow { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+      .rotating-aperture { animation: rotateAperture 45s linear infinite; transform-origin: 960px 210px; }
+      .shimmer-path {
+        stroke-dasharray: 400;
+        animation: shimmerLine 8s linear infinite;
+      }
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" rx="18" fill="url(#bgGradient)"/>
+
+  <!-- Subtle Blueprint Tech Grid Background -->
+  <g opacity="0.07" stroke="#94A3B8" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="420"/>
+    <line x1="200" y1="0" x2="200" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="400" y1="0" x2="400" y2="420"/>
+    <line x1="500" y1="0" x2="500" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="700" y1="0" x2="700" y2="420"/>
+    <line x1="800" y1="0" x2="800" y2="420"/>
+    <line x1="900" y1="0" x2="900" y2="420"/>
+    <line x1="1000" y1="0" x2="1000" y2="420"/>
+    <line x1="1100" y1="0" x2="1100" y2="420"/>
+    <line x1="0" y1="70" x2="1200" y2="70"/>
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+  </g>
+
+  <!-- Ambient Dynamic Glowing Orbs (Behind content) -->
+  <circle cx="200" cy="120" r="180" fill="url(#glowViolet)" filter="url(#softBlur)" class="pulsing-glow"/>
+  <circle cx="980" cy="220" r="220" fill="url(#glowCyan)" filter="url(#softBlur)" class="pulsing-glow" style="animation-delay: -3s;"/>
+
+  <!-- Rotating Camera Aperture / Lens Rings in Background (Right side) -->
+  <g class="rotating-aperture" opacity="0.32">
+    <!-- Outer Lens Ring -->
+    <circle cx="960" cy="210" r="160" fill="none" stroke="#6366F1" stroke-width="2" stroke-dasharray="12 8"/>
+    <circle cx="960" cy="210" r="130" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="960" cy="210" r="95" fill="none" stroke="#A855F7" stroke-width="2" stroke-dasharray="8 6"/>
+    <!-- Shutter Blades -->
+    <path d="M 960 115 L 1020 170" stroke="#06B6D4" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 1045 180 L 1045 260" stroke="#06B6D4" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 1020 270 L 950 300" stroke="#06B6D4" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 920 290 L 880 230" stroke="#06B6D4" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 885 200 L 925 130" stroke="#06B6D4" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="960" cy="210" r="30" fill="#0F172A" stroke="#F43F5E" stroke-width="3"/>
+    <circle cx="960" cy="210" r="8" fill="#F43F5E"/>
+  </g>
+
+  <!-- Dynamic Animated Floating Cards in Mid-ground -->
+  <!-- Card 1: RAW & HDR -->
+  <g class="floating-card-1" opacity="0.9">
+    <rect x="880" y="55" width="220" height="58" rx="14" fill="url(#cardGrad)" stroke="#6366F1" stroke-width="1.2" filter="url(#badgeGlow)"/>
+    <circle cx="906" cy="84" r="14" fill="#6366F1" fill-opacity="0.25"/>
+    <text x="906" y="89" fill="#A5B4FC" font-size="14" text-anchor="middle">📸</text>
+    <text x="930" y="77" fill="#F8FAFC" font-size="13" font-weight="700" class="font-sans">RAW &amp; 32-bit HDR</text>
+    <text x="930" y="96" fill="#94A3B8" font-size="11" class="font-sans">GPU Linear Demosaicing</text>
+  </g>
+
+  <!-- Card 2: Privacy / 100% Offline -->
+  <g class="floating-card-2" opacity="0.92">
+    <rect x="830" y="295" width="230" height="58" rx="14" fill="url(#cardGrad)" stroke="#10B981" stroke-width="1.2" filter="url(#badgeGlow)"/>
+    <circle cx="856" cy="324" r="14" fill="#10B981" fill-opacity="0.25"/>
+    <text x="856" y="329" fill="#6EE7B7" font-size="14" text-anchor="middle">🛡️</text>
+    <text x="880" y="317" fill="#F8FAFC" font-size="13" font-weight="700" class="font-sans">100% Offline Privacy</text>
+    <text x="880" y="336" fill="#94A3B8" font-size="11" class="font-sans">Zero Tracking &amp; No Cloud</text>
+  </g>
+
+  <!-- Card 3: Batch Processing & AI Cutout -->
+  <g class="floating-card-3" opacity="0.88">
+    <rect x="690" y="170" width="195" height="52" rx="12" fill="url(#cardGrad)" stroke="#EC4899" stroke-width="1.2"/>
+    <circle cx="714" cy="196" r="12" fill="#EC4899" fill-opacity="0.25"/>
+    <text x="714" y="201" fill="#F472B6" font-size="12" text-anchor="middle">⚡</text>
+    <text x="736" y="189" fill="#F8FAFC" font-size="12" font-weight="700" class="font-sans">Batch Retouching</text>
+    <text x="736" y="207" fill="#94A3B8" font-size="10.5" class="font-sans">Fast Mobile Pipelines</text>
+  </g>
+
+  <!-- Ambient Border Highlight Line -->
+  <rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- FOREGROUND CONTENT: Title, Subtitle, Badges (Strictly Crisp & Unobscured) -->
+
+  <!-- Top Category Tag -->
+  <g transform="translate(60, 52)">
+    <rect width="215" height="30" rx="15" fill="#1E1B4B" stroke="#6366F1" stroke-width="1"/>
+    <circle cx="16" cy="15" r="5" fill="#38BDF8"/>
+    <text x="30" y="19" fill="#C7D2FE" font-size="11" font-weight="700" letter-spacing="1.2" class="font-sans">CURATED ECOSYSTEM • 2026</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(60, 138)">
+    <text x="0" y="0" fill="url(#titleGrad)" font-size="44" font-weight="900" letter-spacing="-0.5" class="font-sans">Awesome Mobile</text>
+    <text x="0" y="48" fill="url(#titleGrad)" font-size="44" font-weight="900" letter-spacing="-0.5" class="font-sans">Photo Editing Apps</text>
+  </g>
+
+  <!-- Decorative Accent Bar -->
+  <rect x="60" y="202" width="140" height="4" rx="2" fill="url(#accentGrad)"/>
+
+  <!-- Subtitle -->
+  <g transform="translate(60, 240)">
+    <text x="0" y="0" fill="#94A3B8" font-size="16" font-weight="400" class="font-sans">Touch-Optimized Retouching • Batch Processing • Privacy-First Workflows</text>
+    <text x="0" y="25" fill="#64748B" font-size="14" font-weight="400" class="font-sans">A definitive directory of leading SaaS platforms and community open-source GitHub projects</text>
+  </g>
+
+  <!-- Feature Highlights Pill Badges (Foreground Bottom Bar) -->
+  <g transform="translate(60, 310)">
+    <!-- Pill 1: Android & iOS -->
+    <rect x="0" y="0" width="140" height="36" rx="18" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="22" fill="#E2E8F0" font-size="12" font-weight="600" class="font-sans">📱 iOS &amp; Android</text>
+
+    <!-- Pill 2: Open Source -->
+    <rect x="150" y="0" width="138" height="36" rx="18" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="170" y="22" fill="#34D399" font-size="12" font-weight="600" class="font-sans">✨ FOSS &amp; SaaS</text>
+
+    <!-- Pill 3: Touch & Gestures -->
+    <rect x="298" y="0" width="168" height="36" rx="18" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="318" y="22" fill="#38BDF8" font-size="12" font-weight="600" class="font-sans">🎨 Touch Retouching</text>
+
+    <!-- Pill 4: Zero Ads / Privacy -->
+    <rect x="476" y="0" width="170" height="36" rx="18" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="496" y="22" fill="#F472B6" font-size="12" font-weight="600" class="font-sans">🔒 Privacy Respecting</text>
+  </g>
+</svg>
