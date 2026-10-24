@@ -1,6 +1,6 @@
 # Awesome-Mobile-Photo-Editing-App
 
-# Top Mobile Photo Editing App Ecosystem
+## Top Mobile Photo Editing App Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Touch-Optimized Retouching, Batch Processing & Privacy-First Mobile Workflows*  
