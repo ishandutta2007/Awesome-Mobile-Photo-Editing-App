@@ -62,99 +62,99 @@ The table below catalogs premier commercial mobile photo editing applications, s
 
 Open-source mobile photo editors and image processing libraries provide **100% offline security**, zero tracking, no subscription paywalls, and reproducible codebases.
 
-Below, every project includes its real-time star badge linking to its stargazer community, sorted strictly **descending by GitHub Star Count**.
+Below, every project includes its real-time Stars_Badge linking to its stargazer community, sorted strictly **descending by GitHub Stars_Count**.
 
 ---
 
-### 1. [GPUImage (iOS)](https://github.com/BradLarson/GPUImage) [![GitHub stars](https://img.shields.io/github/stars/BradLarson/GPUImage?style=social&color=white)](https://github.com/BradLarson/GPUImage/stargazers)
+### 1. [GPUImage (iOS)](https://github.com/BradLarson/GPUImage) [![GitHub_Stars](https://img.shields.io/github/stars/BradLarson/GPUImage?style=social&color=white)](https://github.com/BradLarson/GPUImage/stargazers)
 - **Primary Platform**: iOS / iPadOS / macOS
 - **License**: BSD-like
 - **Core Strengths**: The foundational GPU-accelerated framework for real-time mobile camera capture, touch filters, and hardware-accelerated image pipeline rendering. Utilizes OpenGL ES / Metal shaders to achieve real-time 60 FPS live preview processing with minimal CPU overhead.
 - **Best For**: iOS developers building custom touch photo filters, live camera effects, and real-time GPU-accelerated video/image manipulation pipelines.
 
-### 2. [Image Toolbox](https://github.com/T8RIN/ImageToolbox) [![GitHub stars](https://img.shields.io/github/stars/T8RIN/ImageToolbox?style=social&color=white)](https://github.com/T8RIN/ImageToolbox/stargazers)
+### 2. [Image Toolbox](https://github.com/T8RIN/ImageToolbox) [![GitHub_Stars](https://img.shields.io/github/stars/T8RIN/ImageToolbox?style=social&color=white)](https://github.com/T8RIN/ImageToolbox/stargazers)
 - **Primary Platform**: Android (Available on GitHub Releases, Google Play, and F-Droid)
 - **License**: Apache-2.0 / GPL
 - **Core Strengths**: The undisputed powerhouse of open-source mobile image manipulation. Delivers 45+ filters, on-device AI background removal, batch resizing/compression across hundreds of images, format conversion (HEIF, AVIF, WebP, SVG, PNG, JPEG), EXIF metadata stripping/editing, PDF conversion, color palette extraction, and AES-256 GCM encryption.
 - **Trade-offs**: Built as a tool-first utility suite rather than a traditional photo browsing gallery; requires a brief learning curve to navigate its expansive modular menus.
 - **Best For**: Photographers and power users demanding an uncompromising, 100% offline, privacy-first mobile photo Swiss Army knife.
 
-### 3. [uCrop](https://github.com/Yalantis/uCrop) [![GitHub stars](https://img.shields.io/github/stars/Yalantis/uCrop?style=social&color=white)](https://github.com/Yalantis/uCrop/stargazers)
+### 3. [uCrop](https://github.com/Yalantis/uCrop) [![GitHub_Stars](https://img.shields.io/github/stars/Yalantis/uCrop?style=social&color=white)](https://github.com/Yalantis/uCrop/stargazers)
 - **Primary Platform**: Android
 - **License**: Apache-2.0
 - **Core Strengths**: The industry-standard Android cropping and rotation engine. Provides fluid multi-touch gesture scaling, smooth rotational dials with angle indicators, aspect ratio locking (1:1, 4:3, 16:9, custom), maximum bitmap dimension constraints, and fast native bitmap transforms.
 - **Best For**: Android application developers seeking a battle-tested, high-performance image cropping activity and fragment.
 
-### 4. [RapidRAW](https://github.com/CyberTimon/RapidRAW) [![GitHub stars](https://img.shields.io/github/stars/CyberTimon/RapidRAW?style=social&color=white)](https://github.com/CyberTimon/RapidRAW/stargazers)
+### 4. [RapidRAW](https://github.com/CyberTimon/RapidRAW) [![GitHub_Stars](https://img.shields.io/github/stars/CyberTimon/RapidRAW?style=social&color=white)](https://github.com/CyberTimon/RapidRAW/stargazers)
 - **Primary Platform**: Cross-Platform (Rust Core, Android support, Linux, Windows, macOS)
 - **License**: AGPL-3.0
 - **Core Strengths**: Non-destructive, GPU-accelerated professional RAW image developer written in Rust. Features 32-bit floating point precision, linear demosaicing algorithms, AI-assisted masking, highlight recovery, and Lightroom-compatible preset workflows.
 - **Best For**: Enthusiast and professional mobile photographers shooting uncompressed DNG/RAW files on modern smartphone camera sensors.
 
-### 5. [android-gpuimage](https://github.com/wasabeef/android-gpuimage) [![GitHub stars](https://img.shields.io/github/stars/wasabeef/android-gpuimage?style=social&color=white)](https://github.com/wasabeef/android-gpuimage/stargazers)
+### 5. [android-gpuimage](https://github.com/wasabeef/android-gpuimage) [![GitHub_Stars](https://img.shields.io/github/stars/wasabeef/android-gpuimage?style=social&color=white)](https://github.com/wasabeef/android-gpuimage/stargazers)
 - **Primary Platform**: Android
 - **License**: Apache-2.0
 - **Core Strengths**: Android port of the GPUImage framework utilizing OpenGL ES 2.0 shaders. Enables instantaneous touch filter adjustments (contrast, tone curves, vignettes, Gaussian blur, HSL, crosshatch) with zero lag on mobile GPUs.
 - **Best For**: Developers integrating real-time filter pipelines, live viewfinders, and touch-responsive effects into Android camera applications.
 
-### 6. [Aves Gallery](https://github.com/deckerst/aves) [![GitHub stars](https://img.shields.io/github/stars/deckerst/aves?style=social&color=white)](https://github.com/deckerst/aves/stargazers)
+### 6. [Aves Gallery](https://github.com/deckerst/aves) [![GitHub_Stars](https://img.shields.io/github/stars/deckerst/aves?style=social&color=white)](https://github.com/deckerst/aves/stargazers)
 - **Primary Platform**: Android (Built with Flutter)
 - **License**: Apache-2.0
 - **Core Strengths**: Modern, privacy-focused media organizer with deep image processing capabilities. Excels at non-destructive image adjustments, comprehensive EXIF/IPTC/XMP metadata editing, geotagging, motion photo playback, wide-gamut color profile management, and multi-format conversions.
 - **Best For**: Mobile photographers looking for a sleek, ad-free gallery that combines comprehensive metadata inspection with essential photo retouching.
 
-### 7. [PhotoEditor](https://github.com/burhanrashid52/PhotoEditor) [![GitHub stars](https://img.shields.io/github/stars/burhanrashid52/PhotoEditor?style=social&color=white)](https://github.com/burhanrashid52/PhotoEditor/stargazers)
+### 7. [PhotoEditor](https://github.com/burhanrashid52/PhotoEditor) [![GitHub_Stars](https://img.shields.io/github/stars/burhanrashid52/PhotoEditor?style=social&color=white)](https://github.com/burhanrashid52/PhotoEditor/stargazers)
 - **Primary Platform**: Android
 - **License**: Apache-2.0
 - **Core Strengths**: Lightweight, feature-packed mobile editor library designed for social-style touch enhancements. Includes brush painting with adjustable opacity/size, emoji stickers, text overlays with typography styling, image cropping, and layer erasure.
 - **Best For**: Rapid integration of Instagram Stories-style photo retouching and interactive drawing inside mobile applications.
 
-### 8. [Fossify Gallery](https://github.com/FossifyOrg/Gallery) [![GitHub stars](https://img.shields.io/github/stars/FossifyOrg/Gallery?style=social&color=white)](https://github.com/FossifyOrg/Gallery/stargazers)
+### 8. [Fossify Gallery](https://github.com/FossifyOrg/Gallery) [![GitHub_Stars](https://img.shields.io/github/stars/FossifyOrg/Gallery?style=social&color=white)](https://github.com/FossifyOrg/Gallery/stargazers)
 - **Primary Platform**: Android (F-Droid, Google Play)
 - **License**: GPL-3.0
 - **Core Strengths**: The community continuation of Simple Gallery Pro. Strictly requests **zero Internet permissions** to guarantee total media privacy. Contains a clean built-in editor for cropping, rotating, flipping, freehand drawing, color adjustments, and stripping EXIF GPS coordinates before sharing.
 - **Trade-offs**: Editing tools are oriented toward basic tweaks; lacks advanced batch pipelines and neural background removal.
 - **Best For**: Everyday mobile users wanting a secure, 100% offline gallery with built-in basic photo editing.
 
-### 9. [Android-Image-Cropper](https://github.com/CanHub/Android-Image-Cropper) [![GitHub stars](https://img.shields.io/github/stars/CanHub/Android-Image-Cropper?style=social&color=white)](https://github.com/CanHub/Android-Image-Cropper/stargazers)
+### 9. [Android-Image-Cropper](https://github.com/CanHub/Android-Image-Cropper) [![GitHub_Stars](https://img.shields.io/github/stars/CanHub/Android-Image-Cropper?style=social&color=white)](https://github.com/CanHub/Android-Image-Cropper/stargazers)
 - **Primary Platform**: Android
 - **License**: Apache-2.0
 - **Core Strengths**: Actively maintained fork of ArthurHub's classic image cropper. Offers circular, rectangular, and free-form crop overlays, camera capture integration, auto-rotation compensation based on EXIF orientation, and customizable UI guidelines.
 - **Best For**: Mobile applications requiring user profile avatar cropping and receipt/document scanning framing.
 
-### 10. [Drawpile](https://github.com/drawpile/Drawpile) [![GitHub stars](https://img.shields.io/github/stars/drawpile/Drawpile?style=social&color=white)](https://github.com/drawpile/Drawpile/stargazers)
+### 10. [Drawpile](https://github.com/drawpile/Drawpile) [![GitHub_Stars](https://img.shields.io/github/stars/drawpile/Drawpile?style=social&color=white)](https://github.com/drawpile/Drawpile/stargazers)
 - **Primary Platform**: Android (via F-Droid), Linux, Windows, macOS
 - **License**: GPL-3.0
 - **Core Strengths**: Collaborative drawing and image retouching app with native stylus pressure sensitivity. Features multi-layer blend modes, lasso/magic wand selections, PSD import/export, and real-time canvas co-editing over encrypted sessions.
 - **Trade-offs**: Lacks dedicated photographic tone curves and HSL sliders; primarily layer-driven.
 - **Best For**: Creative collaborators, digital sketch artists, and mobile photo illustrators.
 
-### 11. [React Native Photo Editor](https://github.com/prscX/react-native-photo-editor) [![GitHub stars](https://img.shields.io/github/stars/prscX/react-native-photo-editor?style=social&color=white)](https://github.com/prscX/react-native-photo-editor/stargazers)
+### 11. [React Native Photo Editor](https://github.com/prscX/react-native-photo-editor) [![GitHub_Stars](https://img.shields.io/github/stars/prscX/react-native-photo-editor?style=social&color=white)](https://github.com/prscX/react-native-photo-editor/stargazers)
 - **Primary Platform**: Cross-Platform (React Native for iOS and Android)
 - **License**: Apache-2.0
 - **Core Strengths**: Native bridge wrapper exposing performant iOS and Android image editing modules to React Native apps. Supports color filters, custom sticker libraries, text formatting, and drawing overlays.
 - **Best For**: Cross-platform React Native teams needing an embeddable mobile photo editing modal.
 
-### 12. [Paintroid / Pocket Paint](https://github.com/Catrobat/Paintroid) [![GitHub stars](https://img.shields.io/github/stars/Catrobat/Paintroid?style=social&color=white)](https://github.com/Catrobat/Paintroid/stargazers)
+### 12. [Paintroid / Pocket Paint](https://github.com/Catrobat/Paintroid) [![GitHub_Stars](https://img.shields.io/github/stars/Catrobat/Paintroid?style=social&color=white)](https://github.com/Catrobat/Paintroid/stargazers)
 - **Primary Platform**: Android (F-Droid, Google Play)
 - **License**: AGPL-3.0
 - **Core Strengths**: Developed by the educational Catrobat organization. Specializes in pixel-level zoom precision, transparency masking, geometric shapes, color fill buckets, and stamp cloners.
 - **Best For**: Pixel art manipulation, clean transparency cutouts, and lightweight mobile graphic adjustments.
 
-### 13. [Litrato](https://github.com/DrMint/Litrato) [![GitHub stars](https://img.shields.io/github/stars/DrMint/Litrato?style=social&color=white)](https://github.com/DrMint/Litrato/stargazers)
+### 13. [Litrato](https://github.com/DrMint/Litrato) [![GitHub_Stars](https://img.shields.io/github/stars/DrMint/Litrato?style=social&color=white)](https://github.com/DrMint/Litrato/stargazers)
 - **Primary Platform**: Android
 - **License**: MIT
 - **Core Strengths**: Focused Android photo utility featuring real-time RGB histogram inspection, selective touch masking, precision color pickers, and EXIF attribute viewing.
 - **Trade-offs**: Minimalist hobbyist project with sporadic maintenance updates.
 - **Best For**: Photography learners evaluating color balance and tonal distributions on mobile screens.
 
-### 14. [QuickEdit Photo Editor](https://github.com/Abizer-R/QuickEdit-Photo-Editor) [![GitHub stars](https://img.shields.io/github/stars/Abizer-R/QuickEdit-Photo-Editor?style=social&color=white)](https://github.com/Abizer-R/QuickEdit-Photo-Editor/stargazers)
+### 14. [QuickEdit Photo Editor](https://github.com/Abizer-R/QuickEdit-Photo-Editor) [![GitHub_Stars](https://img.shields.io/github/stars/Abizer-R/QuickEdit-Photo-Editor?style=social&color=white)](https://github.com/Abizer-R/QuickEdit-Photo-Editor/stargazers)
 - **Primary Platform**: Android
 - **License**: Apache-2.0
 - **Core Strengths**: Modern Android photo editor built with Jetpack Compose. Combines GPUImage shader filters, snappy cropping, drawing gestures, and instant social media exports in an ultra-clean package under 10 MB.
 - **Best For**: Users seeking a bloat-free, quick-turnaround photo editor for everyday snapshots.
 
-### 15. [Capy Canvas](https://github.com/capyatelier/capycanvas) [![GitHub stars](https://img.shields.io/github/stars/capyatelier/capycanvas?style=social&color=white)](https://github.com/capyatelier/capycanvas/stargazers)
+### 15. [Capy Canvas](https://github.com/capyatelier/capycanvas) [![GitHub_Stars](https://img.shields.io/github/stars/capyatelier/capycanvas?style=social&color=white)](https://github.com/capyatelier/capycanvas/stargazers)
 - **Primary Platform**: Android, iPadOS, Linux, Windows, macOS, Web
 - **License**: MIT
 - **Core Strengths**: Cutting-edge GPU-native painting and photo editing app powered by Rust and `wgpu`. Targets 120+ FPS performance with ultra-wide brushes, non-destructive layer effect chains, and dedicated wide-gamut HDR photo workspaces.
@@ -189,7 +189,7 @@ We welcome additions, corrections, and updates from mobile photographers and sof
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-mobile-app`.
-3. 📝 **Add your tool**: Follow the existing format (include platform, verified pricing or star badge, and factual descriptions).
+3. 📝 **Add your tool**: Follow the existing format (include platform, verified pricing or Stars_Badge, and factual descriptions).
 4. ✅ **Ensure accuracy**: Verify that pricing tiers, free trial details, or GitHub links are currently active.
 5. 🚀 **Submit a Pull Request** with a brief summary of why the app qualifies.
 
